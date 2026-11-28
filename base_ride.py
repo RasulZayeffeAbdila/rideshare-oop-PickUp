@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 class Ride(ABC):
+    """Blueprint that every ride type must follow."""
 
     def __init__(self, distance_km):
         self.distance_km = distance_km
